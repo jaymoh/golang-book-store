@@ -1,9 +1,11 @@
 package models
 
-import "github.com/jinzhu/gorm"
+import (
+	"hackinroms.com/books/models/commonfields"
+)
 
 type User struct {
-	gorm.Model
+	commonfields.Common
 	Name  string `json:"name"`
 	Email string `json:"email"`
 	Phone string `json:"phone"`

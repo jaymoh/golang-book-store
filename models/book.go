@@ -1,9 +1,11 @@
 package models
 
-import "github.com/jinzhu/gorm"
+import (
+	"hackinroms.com/books/models/commonfields"
+)
 
 type Book struct {
-	gorm.Model
+	commonfields.Common
 	Title     string `json:"title"`
 	Author    string `json:"author"`
 	PageCount int    `json:"page_count"`
