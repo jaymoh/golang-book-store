@@ -1,5 +1,5 @@
-## A simple RESTful API in Golang using Gin and Gorm
+## A simple RESTFUL API in Golang using Gin and Gorm
 
-Master branch contains a simple implementation with SQlIte. 
+An implementation that uses Postgres. 
 
-Check other branches of this repo for other database implementations.  
+It also offloads configurations to an external environment variables. 
